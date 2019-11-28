@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './components/style.css';
+import './components/images/asset3.png'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             </p>
           </div>
         </div>
+        <img className='logo' src={require("./components/images/asset3.png")} alt="adludio-logo" />
       </div>
     )
   }

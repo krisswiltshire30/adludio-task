@@ -13,17 +13,17 @@ html {
 
 .main-box {
   background: url('./images/white.png'), url('./images/asset1.jpg');
-  background-position: left 320px center, right 160px center;
+  background-position: left 320px center, right 260px center;
   background-position-y: 0px, -85px;
   background-size: 910px;
   background-repeat: no-repeat, no-repeat;
   position: absolute;
   border-radius: 25px;
   padding: 20px;
-  width: 700px;
+  width: 800px;
   height: 400px;
   top: 50%;
-  left: 50%;
+  left: 46%;
   margin-top: -150px;
   margin-left: -348px;
 }

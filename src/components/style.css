@@ -8,7 +8,7 @@ html {
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1300px;
 }
 
 .main-box {
@@ -50,9 +50,94 @@ html {
 }
 
 .logo {
-  top: 36%;
-  left: 50%;
+  bottom: 130px;
+  left: 350px;
   height: 60px;
   width: 100px;
   position: relative;
+}
+
+.button {
+  background-color: purple;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  outline: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 11px;
+  margin: 4px 4px;
+  cursor: pointer;
+  bottom: -160px;
+  left: 62%;
+  bottom: 70px;
+  width: 100px;
+  position: absolute;
+}
+
+.google-button {
+  color: rgb(41, 39, 39);
+  background: white;
+  width: 260px;
+  height: 40px;
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 5px 10px rgba(133, 125, 133, 1);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(133, 125, 133, 1);
+  box-shadow: 0px 0px 3px 0px rgba(133, 125, 133, 1);
+  position: relative;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  left: 52%;
+  bottom: -145px;
+}
+
+.google-button img {
+  float: left;
+  height: 30px;
+  width: 30px;
+}
+
+.reg {
+  left: 380px;
+  bottom: 220px;
+  position: absolute;
+  font-size: smaller;
+  color: rgb(88, 83, 83);
+}
+
+.form-input1 {
+  float: left;
+  margin-right: 20px;
+  border-style: solid;
+  border-color: rgb(230, 224, 224);
+  border-width: thin;
+  bottom: 200px;
+  left: 380px;
+  width: 360px;
+  position: absolute;
+}
+
+.form-input2 {
+  float: left;
+  margin-right: 20px;
+  border-style: solid;
+  border-color: rgb(230, 224, 224);
+  border-width: thin;
+  bottom: 165px;
+  left: 380px;
+  width: 360px;
+  position: absolute;
+}
+
+.form-input3 {
+  float: left;
+  margin-right: 20px;
+  border-style: solid;
+  border-color: rgb(230, 224, 224);
+  border-width: thin;
+  bottom: 130px;
+  left: 380px;
+  width: 360px;
+  position: absolute;
 }

@@ -11,23 +11,38 @@ html {
   background-size: cover;
 }
 
-.rcorners {
+.main-box {
+  background-image: url('./images/asset1.jpg');
+  background-position: right 160px center;
+  background-position-y: -85px;
+  background-size: 910px;
+  background-repeat: no-repeat;
   position: absolute;
   border-radius: 25px;
-  background: #73AD21;
   padding: 20px;
   width: 700px;
-  height: 360px;
+  height: 400px;
   top: 50%;
   left: 50%;
   margin-top: -150px;
   margin-left: -348px;
 }
 
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
+.header {
+  color: aliceblue;
+  top: 15%;
+  left: 2%;
+  position: relative;
+}
+
+.para {
+  font-size: smaller;
+}
+
+.square {
+  /* border: solid 21px rgba(255, 255, 255, 0.952); */
+  width: 500px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.952);
+
 }

@@ -113,6 +113,7 @@ html {
   float: left;
   margin-right: 20px;
   border-style: solid;
+  outline: none !important;
   border-color: rgb(230, 224, 224);
   border-width: thin;
   bottom: 200px;
@@ -125,6 +126,7 @@ html {
   float: left;
   margin-right: 20px;
   border-style: solid;
+  outline: none !important;
   border-color: rgb(230, 224, 224);
   border-width: thin;
   bottom: 165px;
@@ -137,6 +139,7 @@ html {
   float: left;
   margin-right: 20px;
   border-style: solid;
+  outline: none !important;
   border-color: rgb(230, 224, 224);
   border-width: thin;
   bottom: 130px;

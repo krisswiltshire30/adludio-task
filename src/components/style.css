@@ -62,7 +62,7 @@ html {
   border: none;
   border-radius: 30px;
   color: white;
-  outline: 0;
+  outline: none !important;
   padding: 10px;
   text-align: center;
   font-size: 11px;
@@ -70,7 +70,7 @@ html {
   cursor: pointer;
   bottom: -160px;
   left: 62%;
-  bottom: 70px;
+  bottom: 75px;
   width: 100px;
   position: absolute;
 }
@@ -79,16 +79,17 @@ html {
   color: rgb(41, 39, 39);
   background: white;
   width: 260px;
-  height: 40px;
-  outline: 0;
+  height: 36px;
+  font-size: smaller;
+  padding: 3px;
+  outline: none !important;
   -webkit-box-shadow: 0px 0px 5px 10px rgba(133, 125, 133, 1);
   -moz-box-shadow: 0px 0px 3px 0px rgba(133, 125, 133, 1);
   box-shadow: 0px 0px 3px 0px rgba(133, 125, 133, 1);
   position: relative;
   border-radius: 5px;
-  text-align: center;
   vertical-align: middle;
-  left: 52%;
+  left: 385px;
   bottom: -145px;
 }
 
@@ -140,4 +141,9 @@ html {
   left: 380px;
   width: 360px;
   position: absolute;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
 }

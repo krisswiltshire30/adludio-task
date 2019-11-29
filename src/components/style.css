@@ -1,6 +1,6 @@
 body,
 html {
-  height: 100%;
+  height: 100vh;
 }
 
 .bg {
@@ -8,7 +8,7 @@ html {
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 1350px;
+  background-size: 1500px;
   background-position-y: -130px;
   background-position-x: -45px;
 }
